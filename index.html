@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <div class="logodiv">
+                <a class="logolink" href="index.html"><img src="images/logo plant.svg" alt="plant">PLANT SHOP</a>
+            </div>
+
+            <form class="searchform">
+
+                <label for="search"></label>
+                <input class="searchinput" type="text" id="search" name="search"
+                    placeholder="What are you looking for?">
+                <button class="searchicon" type="submit"><img src="images/charm_search.svg" alt="search"></button>
+
+            </form>
+
+            <div class="rightsidediv">
+                <div class="logindiv">
+                    <p class="login">LOG IN</p>
+                </div>
+                <div class="cartdiv">
+                    <img class="cart" src="images/fluent_cart-16-filled.svg" alt="cart">
+                </div>
+            </div>
+        </header>
+
+        <!-- SECTION1 -->
+        <section class="navsection">
+            <nav class="navlist">
+                <ul class="sectionlist">
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>PLANT CARE </li>
+                    <li>CONTACT US</li>
+                </ul>
+
+
+            </nav>
+
+            <div class="phonenav">
+                <img src="images/iconamoon_menu-burger-horizontal-fill.svg" alt="burgerrmenu">
+                <img src="images/charm_search.svg" alt="search">
+
+            </div>
+        </section>
+
+        <!-- SECTION2 -->
+        <section class="section2">
+            <form class="sectionform">
+                <h1>CONTACT US</h1>
+
+                <div class="namediv">
+                    <label for="name">
+                        <input class="inputbackground phonewidth" type="text" id="name" name="name" placeholder="Name">
+                    </label>
+
+                    <label for="email">
+                        <input class="inputbackground phonewidth" type="email" id="email" name="email"
+                            placeholder="Email">
+                    </label>
+                </div>
+
+                <label class="title" for="existing-order">Is your question about an existing order?</label>
+                <select class="inputbackground" id="existing-order" name="existing-order">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+
+                <label class="title" for="delivery-question">I have a delivery question about my order</label>
+                <div class="radiodiv">
+                    <label class="radiotext"><input type="radio" id="option1" name="delivery-question" value="option1">I
+                        did not receive my order</label>
+                    <label class="radiotext"><input type="radio" id="option2" name="delivery-question"
+                            value="option2">My order is incorrect or arrived damaged</label>
+                    <label class="radiotext"><input type="radio" id="option3" name="delivery-question"
+                            value="option3">Cancel my order</label>
+                    <label class="radiotext"><input type="radio" id="option4" name="delivery-question"
+                            value="option4">Change my shipping address</label>
+                </div>
+                <label class="title" for="message">Please provide more details below</label>
+                <textarea class="inputbackground" id="message" name="message" rows="4" cols="50" placeholder="Message"
+                    style="resize: none;"></textarea>
+
+                <div class="checkboxdiv">
+                    <input class="checkbox" type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label class="title" for="newsletter">I want to receive the newsletter</label>
+                </div>
+                <button type="submit">SEND</button>
+            </form>
+        </section>
+
+
+        <footer>
+            <div class="followusdiv">
+                <P class="footerdivtitles">Follow us</P>
+                <div class="socialicons">
+                    <img src="images/entypo-social_facebook.svg" alt="facebook">
+                    <img src="images/typcn_social-instagram.svg" alt="instagram">
+                    <img src="images/fa-brands_twitter-square.svg" alt="twitter">
+                    <img src="images/fa_pinterest-square.svg" alt="pinterest">
+                </div>
+            </div>
+            <div class="contactusdiv">
+                <p class="footerdivtitles">Contact us</p>
+                <div class="contactdiv">
+                    <p class="contact"><img src="images/mdi_address-marker.svg" alt="">New York, 94 Brodway</p>
+                    <p class="contact"><img src="images/solar_phone-bold.svg" alt="">+555 67 88 00</p>
+                    <p class="contact"><img src="images/eva_email-fill.svg" alt="">plant@gmail.com</p>
+                </div>
+                <div class="phonecontacts">
+                    <img src="images/mdi_address-marker.svg" alt="">
+                    <img src="images/solar_phone-bold.svg" alt="">
+                    <img src="images/eva_email-fill.svg" alt="">
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2023 House Plant Shop.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
